@@ -1,66 +1,67 @@
 print("MULTIPLICATION GAME:")
 print("*********************")
-
+print("Instructions: Enter the answers in numeric values. ")
+print("         ")
 print("9 x 1 =")
 answer_1 = input("Answer:")
-if answer_1 == "9" or answer_1 == "nine" or answer_1 == "Nine":
+if answer_1 == 9:
     print("Correct!")
     print("8 x 2 =")
     answer_2 = input("Answer:")
-    if answer_2 == "16" or answer_2 == "sixteen" or answer_2 == "Sixteen":
+    if answer_2 == 16:
         print("Correct!")
         print("5 x 5 =")
         answer_3 = input("Answer:")
-        if answer_3 == "25" or answer_3 == "twenty five" or answer_3 == "Twenty five" or answer_3 == "twenty-five" or answer_3 == "Twenty-five":
+        if answer_3 == 25:
             print("Correct!")
             print("7 x 3 =")
             answer_4 = input("Answer:")
-            if answer_4 == "21" or answer_4 == "twenty one" or answer_4 == "Twenty one" or answer_4 == "twenty-one" or answer_4 == "Twenty-one":
+            if answer_4 == 21:
                 print("Correct!")
                 print("2 x 6 =")
                 answer_5 = input("Answer:")
-                if answer_5 == "12" or answer_5 == "twelve" or answer_5 == "Twelve":
+                if answer_5 == 12:
                     print("Correct!")
                     print("4 x 3 =")
                     answer_6 = input("Answer:")
-                    if answer_6 == "12" or answer_6 == "twelve" or answer_6 == "Twelve":
+                    if answer_6 == 12:
                         print("Correct!")
                         print("8 x 9 =")
                         answer_7 = input("Answer:")
-                        if answer_7 == "72" or answer_7 == "seventy two" or answer_7 == "Seventy two" or answer_7 == "seventy-two" or answer_7 == "Seventy-two":
+                        if answer_7 == 72:
                             print("Correct!")
                             print("3 x 10 =")
                             answer_8 = input("Answer:")
-                            if answer_8 == "30" or answer_8 == "thirty" or answer_8 == "Thirty":
+                            if answer_8 == 30:
                                 print("Correct!")
                                 print("5 x 4 =")
                                 answer_9 = input("Answer:")
-                                if answer_9 == "20" or answer_9 == "twenty" or answer_9 == "Twenty":
+                                if answer_9 == 20:
                                     print("Correct!")
                                     print("10 x 10 =")
                                     answer_10 = input("Answer:")
-                                    if answer_10 == "100" or answer_10 == "one hundred" or answer_10 == "One hundred":
+                                    if answer_10 == 100:
                                         print("Correct!")
                                     else:
-                                        print("Sorry, I don't understand that response, try again.")
+                                        print("Invalid Response.")
                                 else:
-                                    print("Sorry, I don't understand that response, try again.")
+                                    print("Invalid Response.")
                             else:
-                                print("Sorry, I don't understand that response, try again.")
+                                print("Invalid Response.")
                         else:
-                            print("Sorry, I don't understand that response, try again.")
+                            print("Invalid Response.")
                     else:
-                        print("Sorry, I don't understand that response, try again.")
+                        print("Invalid Response.")
                 else:
-                    print("Sorry, I don't understand that response, try again.")
+                    print("Invalid Response.")
             else:
-                print("Sorry, I don't understand that response, try again.")
+                print("Invalid Response.")
         else:
-            print("Sorry, I don't understand that response, try again.")
+            print("Invalid Response.")
     else:
-        print("Sorry, I don't understand that response, try again.")
+        print("Invalid Response.")
 else:
-    print("Sorry, I don't understand that response, try again.")
+    print("Invalid Response.")
 
 
 
