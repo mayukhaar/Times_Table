@@ -4,8 +4,8 @@ print("Instructions: Enter the answers in numeric values. ")
 print("         ")
 invalid = 0
 complexity = 10
-y = 10
-for x in range(y):
+repeat = 10
+for x in range(repeat):
     from random import randint
     num_1 = randint(0, complexity)
     from random import randint
@@ -18,10 +18,11 @@ for x in range(y):
     else:
         print("Incorrect. :(")
         invalid = invalid + 1
+correct = repeat - invalid
 print("_______________________________________________")
 print("|Thank you for playing! Here are your results!|")
 print("|Number of invalid responses:" + str(invalid) + "                |")
-print("|Number of correct responses:" + str(correct) + "/" + str(y) + "             |")
+print("|Number of correct responses:" + str(correct) + "/" + str(repeat) + "             |")
 print("_______________________________________________")
 
 #show number of wrong events and number of correct answers/responses
