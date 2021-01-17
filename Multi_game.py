@@ -19,10 +19,10 @@ for x in range(repeat):
         print("Incorrect. :(")
         invalid = invalid + 1
 correct = repeat - invalid
-print("_______________________________________________")
-print("|Thank you for playing! Here are your results!|")
-print("|Number of invalid responses:" + str(invalid) + "                |")
-print("|Number of correct responses:" + str(correct) + "/" + str(repeat) + "             |")
-print("_______________________________________________")
+print("___________________________________________________")
+print("|Thank you for playing! Here are your results!")
+print("|Number of invalid responses:" + str(invalid))
+print("|Number of correct responses:" + str(correct) + "/" + str(repeat))
+print("___________________________________________________")
 
 #show number of wrong events and number of correct answers/responses
