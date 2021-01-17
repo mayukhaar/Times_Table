@@ -39,7 +39,7 @@ if answer_1 == "9" or answer_1 == "nine" or answer_1 == "Nine":
                                     print("Correct!")
                                     print("10 x 10 =")
                                     answer_10 = input("Answer:")
-                                    if answer_9 == "100" or answer_9 == "one hundred" or answer_9 == "One hundred":
+                                    if answer_10 == "100" or answer_10 == "one hundred" or answer_10 == "One hundred":
                                         print("Correct!")
                                     else:
                                         print("Sorry, I don't understand that response, try again.")
@@ -61,8 +61,6 @@ if answer_1 == "9" or answer_1 == "nine" or answer_1 == "Nine":
         print("Sorry, I don't understand that response, try again.")
 else:
     print("Sorry, I don't understand that response, try again.")
-    #break
-#question_2 == print("")
 
 
 
