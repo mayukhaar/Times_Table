@@ -5,7 +5,6 @@ print("         ")
 repeat = "Y"
 invalid = 0
 while repeat == "Y" or repeat == "y":
-
     print("9 x 1 =")
     answer_1 = input("Answer:")
     if answer_1 == "9":
@@ -88,6 +87,3 @@ while repeat == "Y" or repeat == "y":
         print("Invalid Response.")
         invalid = invalid + 1
         repeat = input("Do you want to try again? (Y/N)")
-
-
-
